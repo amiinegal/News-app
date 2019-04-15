@@ -1,7 +1,7 @@
 ## News Highlights
 
 ### Description
-This is a new app that helps a user to access to various media platforms and get updated with world affairs
+_This is a news app that allows a user to access various media platforms and get updated with world affairs and day-to-day headlines_
 ### author
 _amin egal_
 
