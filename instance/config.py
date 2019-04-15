@@ -1,0 +1,2 @@
+export NEWS_API_KEY='cb4e9f2ecd7343a19992a9b5043a14db'
+export SECRET_KEY='2030'
