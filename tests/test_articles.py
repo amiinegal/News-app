@@ -1,9 +1,3 @@
-#!/usr/bin/env python3.6
-import unittest
-from app.models import Article
-# Articles = news_articles.Articles
-
-
 import unittest
 from app.models import Articles
 
@@ -15,7 +9,7 @@ class TestArticles(unittest.TestCase):
         '''
         Test class to run before other tests
         '''
-        self.new_article = Articles('Richard','Tech is great','Advanced technology improving life','https://google.com','https://google.com/images','2018-05-12T13:31:03Z')
+        self.new_article = Articles('id','Amin','Richard','Tech is great','Advanced technology improving life','https://google.com','https://google.com/images','2018-05-12T13:31:03Z')
 
     def test_instance(self):
         self.assertTrue(isinstance(self.new_article,Articles))
@@ -27,3 +21,8 @@ class TestArticles(unittest.TestCase):
         self.assertEquals(self.new_article.url,'https://google.com')
         self.assertEquals(self.new_article.urlToImage,'https://google.com/images')
         self.assertEquals(self.new_article.publishedAt,'2018-05-12T13:31:03Z')
+        self.assertEquals(self.new_article.id,'id')
+        self.assertEquals(self.new_article.name,'Amin')
+
+if __name__ == '__main__':
+    manager.run()        
