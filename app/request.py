@@ -52,12 +52,7 @@ def process_sources(source_list):
         category = source.get('category')
         country = source.get('country')
         if url:
-            source_object = Source(id,
-                                   name,
-                                   description,
-                                   url,
-                                   category,
-                                   country)
+            source_object = Source(id,name,description,url,category,country)
 
             news_results.append(source_object)
 
@@ -68,8 +63,7 @@ def get_articles(id):
     """
     Function that gets the json response to our url request
     """
-    get_source_news_url = source_url.format(
-        id, api_key)
+    get_source_news_url = source_url.format(id, api_key)
     with urllib.request.urlopen(get_source_news_url) as url:
         get_news_data = url.read()
         get_news_response = json.loads(get_news_data)
