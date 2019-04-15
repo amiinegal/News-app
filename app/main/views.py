@@ -29,7 +29,3 @@ def news(id):
     return render_template('news.html',highlight_param=highlight_args,news=news_args)
 
 
-"""
-We do not need another route to a sources articles since
-we will be displaying the urls tied to each article in our news list
-"""
