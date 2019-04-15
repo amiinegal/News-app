@@ -11,8 +11,8 @@ _amin egal_
 |Behaviour   | input  | output  |
 |:-:|---|---|
 | _page displays various media outlets_ | _choose a specific category based on your preference_ | _takes you to the top-headlines_  |
-|  the options include politics,entertainment,sports | users picks one  | the full page of that particular outlet is displayed with images  |
-| list of media platforms and sources  | top-headlines from that particluar source at the moment in time  |a view article page that allows the user to further dwell in the topic he/she wants   |
+|  _the options include politics,entertainment,sports_ | _users picks one_  | _the full page of that particular outlet is displayed with images_  |
+| _list of media platforms and sources_  | _top-headlines from that particluar source at the moment in time_  |_a view article page that allows the user to further dwell in the topic he/she wants_   |
 
 ## Known Bugs
 No Bugs
@@ -25,8 +25,8 @@ _Flask_
 _Dependencies_
 _pip_
 _Support and contact details_
-_Telephone: +(254) 751-579-367_
-_Email: amiinegal34@gmail.com
+_Telephone:_ _0741080373_
+_Email:_ _amiinegal34@gmail.com_
 
 ### Licensing
 ### MIT License
