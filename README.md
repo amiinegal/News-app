@@ -8,6 +8,12 @@ _amin egal_
 
 ## BDD
 
+|Behaviour   | input  | output  |
+|:-:|---|---|
+| _page displays various media outlets_ | _choose a specific category based on your preference_ | _takes you to the top-headlines_  |
+|  the options include politics,entertainment,sports | users picks one  | the full page of that particular outlet is displayed with images  |
+| list of media platforms and sources  | top-headlines from that particluar source at the moment in time  |a view article page that allows the user to further dwell in the topic he/she wants   |
+
 ## Known Bugs
 No Bugs
 
