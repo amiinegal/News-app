@@ -20,7 +20,7 @@ _Dependencies_
 _pip_
 _Support and contact details_
 _Telephone: +(254) 751-579-367_
-_Email: husseinfuaad@hotmail.com_
+_Email: amiinegal34@gmail.com
 
 ### Licensing
 ### MIT License
