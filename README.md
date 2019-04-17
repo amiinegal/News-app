@@ -18,12 +18,12 @@ _amin egal_
 No Bugs
 
 ### Technologies Used
-_CSS for styling._
-_HTML for webpage design._
-_Python3.6._
-_Flask_
-_Dependencies_
-_pip_
+* _CSS for styling._
+* _HTML for webpage design._
+* _Python3.6._
+* _Flask_
+* _Dependencies_
+* _pip_
 
 
 #### _Support and contact details_
