@@ -7,12 +7,12 @@ from ..request import get_sources, get_articles
 @main.route('/')
 def index():
    
-    general_list = get_sources('us', 'general')
-    business_list = get_sources('us', 'business')
-    technology_list = get_sources('us', 'technology')
-    sports_list = get_sources('us', 'sports')
-    health_list = get_sources('us', 'health')
-    science_list = get_sources('us', 'science')
+    general_list = get_sources('FR', 'general')
+    business_list = get_sources('FR', 'business')
+    technology_list = get_sources('FR', 'technology')
+    sports_list = get_sources('FR', 'sports')
+    health_list = get_sources('FR', 'health')
+    science_list = get_sources('FR', 'science')
     entertainment_list = get_sources('us', 'entertainment')
     test_args = 'News'
     return render_template('index.html',general=general_list,business=business_list,technology=technology_list,sports=sports_list,health=health_list,science=science_list,entertainment=entertainment_list)
